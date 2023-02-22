@@ -11,7 +11,7 @@
 
 	void Task_1()
 	{
-	    int len = ReadInt("колличество чисел");
+	    int len = ReadInt("number of numbers");
 	    int [] array = new int[len];
 	    array = fillingArray(array);
 	    Console.WriteLine(string.Join(", ", array));
